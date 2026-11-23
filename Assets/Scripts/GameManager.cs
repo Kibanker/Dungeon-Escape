@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
     // ---------- SPRITES (à glisser dans l'Inspector) ----------
     // Les sprites sont optionnels : si un champ est vide, une case colorée est utilisée à la place
-    // Je n'étais pas sûr d'avoir le temps de faire un jeu "joli" donc je les ai laissé optionnels
+    // Je n'étais pas sûre d'avoir le temps de faire un jeu "joli" donc je les ai laissé optionnels
     [Header("Sprites (optionnels, sinon couleur par défaut)")]
     public Sprite floorSprite;
     public Sprite wallSprite;

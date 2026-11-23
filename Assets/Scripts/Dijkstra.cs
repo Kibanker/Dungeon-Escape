@@ -8,7 +8,7 @@ public static class Dijkstra
     // Les 4 directions autorisées (pas de diagonales)
     static readonly Vector2Int[] Dirs =
     {
-        Vector2Int.up, Vector2Int.down, Vector2Int.left, Vector2Int.right
+        Vector2Int.up, Vector2Int.down, Vector2Int.left, Vector2Int.right 
     };
 
     // Renvoie le chemin de start à goal (les deux inclus), ou null si goal est inaccessible
